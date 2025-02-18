@@ -32,3 +32,43 @@ This is an **open-source AI-powered real-time emotion detection system** optimiz
 ```bash
 git clone https://github.com/your-username/nvidia-emotion-detection.git
 cd nvidia-emotion-detection
+
+###  2️⃣ Install Backend Dependencies
+```bash
+cd backend
+pip install -r requirements.txt
+
+
+###  3️⃣ Install Frontend Dependencies
+```bash
+cd frontend
+npm install
+
+
+###  4️⃣ Run the Backend Server
+```bash
+cd backend
+python app.py
+
+
+###  5️⃣ Run the Frontend
+```bash
+cd frontend
+npm start
+###  📸 Demo
+🚧 Coming soon! (Will add screenshots and GIFs of the working application)
+
+🤝 Contributing
+We welcome contributions! If you'd like to improve the project:
+
+Fork the repository
+Create a new branch (feature-branch)
+Commit your changes
+Submit a pull request
+
+
+📜 License
+This project is licensed under the MIT License.
+
+🌟 Acknowledgments
+Special thanks to NVIDIA for their powerful AI tools and TensorRT optimization!
