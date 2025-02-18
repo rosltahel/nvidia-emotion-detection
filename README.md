@@ -30,7 +30,7 @@ This is an **open-source AI-powered real-time emotion detection system** optimiz
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/nvidia-emotion-detection.git
+git clone https://github.com/rosltahel/nvidia-emotion-detection.git
 cd nvidia-emotion-detection
 
 2️⃣ Install Backend Dependencies
