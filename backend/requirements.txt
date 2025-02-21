@@ -1,0 +1,6 @@
+Flask
+tensorflow
+opencv-python
+numpy
+onnx
+onnxruntime
