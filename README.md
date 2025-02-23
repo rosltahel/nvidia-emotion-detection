@@ -1,5 +1,11 @@
 # 🎭 NVIDIA AI-Powered Real-Time Emotion Detection  
 
+
+
+![image](https://github.com/user-attachments/assets/b51dadc8-0d8c-4246-ab84-978c70e9b152)
+
+
+
 ## 📌 Overview  
 This is an open-source AI-powered real-time emotion detection system optimized using **NVIDIA TensorRT** for fast inference. It leverages OpenCV for face detection, a pre-trained emotion recognition model, and a Flask/FastAPI backend to serve predictions. The frontend is built with React for an interactive user experience.
 
