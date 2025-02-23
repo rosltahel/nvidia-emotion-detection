@@ -33,9 +33,10 @@ const App = () => {
       const formData = new FormData();
       formData.append("image", blob, "snapshot.jpg");
 
-      const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+
+      const response = await axios.post("http://127.0.0.1:5000/predict", formData, {headers: {'Content-Type': 'multipart/form-data'}});
+
+      
 
       setEmotion(response.data.emotion);
     } catch (error) {
@@ -66,9 +67,9 @@ const App = () => {
     formData.append("image", e.target.image.files[0]);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      const response = await axios.post("http://127.0.0.1:5000/predict", formData, {headers: {'Content-Type': 'multipart/form-data'}});
+
+      
       setEmotion(response.data.emotion);
     } catch (error) {
       console.error("Error detecting emotion:", error);

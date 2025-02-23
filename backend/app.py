@@ -3,7 +3,12 @@ import numpy as np
 from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 
+
+
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:3000"])  # Allow requests from the React frontend
+
 
 # Load model
 model = load_model("emotion_model.h5")
